@@ -152,7 +152,7 @@
                 <tr>
                     <td></td>
                     <td>
-                        <asp:Button ID="btnregister" runat="server" Text="Register" />
+                        <asp:Button ID="btnsubmit" runat="server" Text="Submit" />
                     </td>
                 </tr>
             </table>
