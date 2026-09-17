@@ -13,5 +13,18 @@ namespace WenbApp2
         {
 
         }
+
+        protected void cvGender_ServerValidate(object source, ServerValidateEventArgs args)
+        {
+            if(!rbtnmale.Checked && !rbtnfemale.Checked)
+            {
+                args.IsValid = false;
+            }
+            else
+            {
+                args.IsValid = true;
+            }
+
+        }
     }
 }

@@ -59,6 +59,9 @@
                     <td>
                         <asp:RadioButton ID="rbtnmale" runat="server" GroupName="Gender" Text="Male" />
                         <asp:RadioButton ID="rbtnfemale" runat="server" GroupName="Gender" Text="Female" />
+                        <asp:CustomValidator ID="cvGender" runat="server"
+                            ErrorMessage="Please select a gender" ForeColor="Red" 
+                            OnServerValidate="cvGender_ServerValidate"></asp:CustomValidator>
                     </td>
                 </tr>
                 <tr>
