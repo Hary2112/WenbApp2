@@ -151,6 +151,18 @@
                             </asp:DropDownList>
                     </td>
                 </tr>
+                <!-->AGE<-->
+                <tr>
+                    <td>
+                        <asp:Label ID="lblage" runat="server" Text="Age:"></asp:Label>
+                    </td>
+                    <td>
+                        <asp:TextBox ID="txtage" runat="server"></asp:TextBox>
+                        <asp:RangeValidator ID="rvAge" runat="server" ControlToValidate="txtage" 
+                            MinimumValue="18" MaximumValue="100" Type="Integer"
+                            ErrorMessage="Age must be between 18 and 100." ForeColor="Red"></asp:RangeValidator>
+                    </td>
+                </tr>
                 <tr>
                     <td></td>
                     <td>

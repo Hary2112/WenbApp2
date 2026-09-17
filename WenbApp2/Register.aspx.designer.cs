@@ -240,6 +240,33 @@ namespace WenbApp2
         protected global::System.Web.UI.WebControls.DropDownList dobday;
 
         /// <summary>
+        /// lblage control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblage;
+
+        /// <summary>
+        /// txtage control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox txtage;
+
+        /// <summary>
+        /// rvAge control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RangeValidator rvAge;
+
+        /// <summary>
         /// btnsubmit control.
         /// </summary>
         /// <remarks>
