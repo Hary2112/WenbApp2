@@ -32,6 +32,8 @@
                     </td>
                     <td>
                         <asp:TextBox ID="txtemail" runat="server"></asp:TextBox>
+                        <asp:RequiredFieldValidator ID="rfvEmail" runat="server" ControlToValidate="txtemail" ErrorMessage="Email is required." ForeColor="Red"></asp:RequiredFieldValidator>
+                        <asp:RegularExpressionValidator ID="revEmail" runat="server" ControlToValidate="txtemail" ErrorMessage="Invalid email format." ValidationExpression="\w+([-+.'']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*" ForeColor="Red"></asp:RegularExpressionValidator>
                     </td>
                 </tr>
                 <tr>
